@@ -1,5 +1,7 @@
 # vscode stuff
 .vscode
+.clangd
+.clang-format
 
 # cmake stuff
 build/
