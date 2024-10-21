@@ -1,2 +1,0 @@
-CompileFlags:
-  Add: -I"C:/Libs/SFML-2.6.1/include" -I"C:/Users/maboz/Documents/minhas_coisas/Programacao/map_render/src/display"
