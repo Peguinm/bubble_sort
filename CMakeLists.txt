@@ -1,5 +1,5 @@
 cmake_minimum_required(
-  VERSION 3.30
+  VERSION 3.20
 )
 set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
@@ -9,13 +9,10 @@ project(
   LANGUAGES CXX
 )
 
+set(SFML_STATIC_LIBRARIES TRUE)
+
 set(CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED true)
-
-set(SFML_STATIC_LIBRARIES true)
-set(SFML_DIR "C:/Libs/SFML-2.6.1/lib/cmake/SFML")
-
-include_directories("C:/Libs/SFML-2.6.1/include")
 
 find_package(SFML 2.6.1 COMPONENTS system graphics window REQUIRED)
 

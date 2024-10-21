@@ -19,7 +19,9 @@ set(
 )
 
 include_directories(${HEADER})
-add_executable(bubbleSort ${SOURCES})
+add_executable(bubbleSort WIN32 ${SOURCES})
+
+target_link_options(bubbleSort PRIVATE -static -static-libgcc -static-libstdc++)
 
 target_link_libraries(
   bubbleSort
