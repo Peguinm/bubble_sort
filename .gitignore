@@ -1,0 +1,14 @@
+# vscode stuff
+.vscode
+
+# cmake stuff
+build/
+*/CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Makefile
+*.o
+*.exe
+*.out
+*.obj
+*.bin
