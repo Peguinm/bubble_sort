@@ -5,7 +5,7 @@
 
 # cmake stuff
 build/
-*/CMakeFiles/
+CMakeFiles/
 CMakeCache.txt
 CMakeScripts/
 Makefile
